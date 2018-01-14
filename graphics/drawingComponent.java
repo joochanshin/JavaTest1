@@ -71,6 +71,13 @@ public class drawingComponent extends JComponent{
 		g2.setColor(Color.PINK); 
 		g2.fill(nose);
 		
+		// Mouth
+		Shape leftMouth = new Arc2D.Double(425, 550, 75, 75, 180, 180, Arc2D.OPEN);
+		Shape rightMouth = new Arc2D.Double(500, 550, 75, 75, 180, 180, Arc2D.OPEN);
+		
+		g2.draw(leftMouth);
+		g2.draw(rightMouth);
+		
 		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 	}
 	
