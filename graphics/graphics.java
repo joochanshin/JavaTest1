@@ -12,7 +12,7 @@ public class graphics {
 	public static void main (String[] args){
 		
 		JFrame window = new JFrame();
-		window.setSize(400, 400);
+		window.setSize(10000, 10000);
 		window.setTitle("This is jframe");
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
